@@ -6,6 +6,7 @@ import Example01 from './Example01';
 import Example02 from './Example02';
 import Example03 from './Example03';
 import Example04 from './Example04';
+import Example05 from './Example05';
 
 interface IExampleConfig {
   component: React.ComponentType;
@@ -32,6 +33,11 @@ const examples: IExampleConfig[] = [
     component: Example04,
     route: Screens.Example04,
     title: 'Example 04: Selector Family',
+  },
+  {
+    component: Example05,
+    route: Screens.Example05,
+    title: 'Example 05: Selectors Read/Write',
   },
 ];
 
