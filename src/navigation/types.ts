@@ -8,6 +8,7 @@ export enum Screens {
   Example05 = 'Example05',
   Example06 = 'Example06',
   Example07 = 'Example07',
+  Example08 = 'Example08',
   Home = 'Home',
 }
 
